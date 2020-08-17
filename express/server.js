@@ -11,7 +11,7 @@ router.get('/', (req, res) => {
   res.write('<h1>Hello from Express.js!</h1>');
   res.end();
 });
-router.get('/kpow', (req, res) => {
+router.get('/kpow/', (req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/html' });
   res.write('<h1>Hello from Kpow!</h1>');
   res.end();
